@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.33/win64" 1742074511
+<REAPER_PROJECT 0.1 "7.33/win64" 1742074484
   <NOTES 0 2
   >
   RIPPLE 0
@@ -18,7 +18,7 @@
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 22.54161340489258
+  CURSOR 6.19700712161995
   ZOOM 51.63782995885102 1001 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -105,7 +105,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 0.9368544752301 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -3033,7 +3033,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -8204,6 +8204,109 @@
       FXID {E14EF11B-CC5D-4D07-A5BF-F6F57854F1DF}
       WAK 0 0
     >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 78.74699915899625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C38D3A4-5144-4493-BB2C-C50D6CE2127D}
+      IID 10
+      NAME "02-Surge path test 1-MIDI"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23569029 R
+      GUID {BF467210-64B6-4F1D-B2FA-A7399AFAAB35}
+      RECPASS 7
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {B88F0BB7-63A0-4B6A-8960-1E995F4375E5}
+        E 2122 90 40 7f
+        E 45 80 40 00
+        E 3009 90 40 7f
+        E 2742 90 41 7f
+        E 1649 90 43 7f
+        E 4258 80 41 00
+        E 869 90 47 7f
+        E 6977 80 40 00
+        E 4392 90 4a 7f
+        E 17342 80 4a 00
+        E 2118 90 3c 7f
+        E 16116 80 3c 00
+        E 4013 80 43 00
+        E 1226 90 40 7f
+        E 5595 90 3b 7f
+        E 9697 80 3b 00
+        E 891 90 4c 7f
+        E 9541 80 4c 00
+        E 2809 80 40 00
+        E 735 90 41 7f
+        E 4146 90 4a 7f
+        E 4904 80 4a 00
+        E 0 90 48 7f
+        E 5194 80 48 00
+        E 1070 80 47 00
+        E 401 80 41 00
+        E 625 90 43 7f
+        E 5684 80 43 00
+        E 958 90 3c 7f
+        E 1917 90 41 7f
+        E 3344 90 47 7f
+        E 3879 90 4c 7f
+        E 5149 80 3c 00
+        E 4949 90 3e 7f
+        E 267 80 47 00
+        E 22 90 47 7f
+        E 4147 80 47 00
+        E 89 90 47 7f
+        E 1404 80 47 00
+        E 6843 90 38 7f
+        E 2452 80 3e 00
+        E 67 80 38 00
+        E 23 80 4c 00
+        E 66 80 41 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {AD827C3C-9DEE-4C6A-B41E-422EB541F64D}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 42
+        VELLANE -1 100 0 0 1
+      >
+      TAKE
+      NAME "02-Surge path test 1-MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS -0.00002267573696 -0.00004535147392
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30709250 R
+      GUID {08F46AEF-7664-4D87-A000-FA9F342E06A1}
+      RECPASS 8
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {7C00EE1B-9DBD-45AC-B33D-8B01A6297FC6}
+        E 151194 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {4EF41007-436C-4282-B00D-FD1508F39B1B}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 43
+        VELLANE -1 100 0 0 1
+        CFGEDITVIEW 0.956463 0.005938 51 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 706 439 1539 989 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
   >
   <TRACK {8D85EC8E-BB53-459F-8318-E648D6228FE7}
     NAME "Surge path test 2"
@@ -8232,7 +8335,7 @@
     MAINSEND 1 0
     <FXCHAIN
       WNDRECT 508 93 1291 920
-      SHOW 0
+      SHOW 1
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
@@ -8886,6 +8989,109 @@
       FLOATPOS 0 0 0 0
       FXID {A969AC33-F04B-4550-9468-860AED81ED61}
       WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 78.74699915899625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1616E94B-AFD0-4E4B-8C5D-EFE752921E93}
+      IID 11
+      NAME "03-Surge path test 2-MIDI"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23569029 R
+      GUID {A8BAF066-B0C3-4DEF-82FD-56C1C5486947}
+      RECPASS 7
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {C3C5466D-30EB-47FF-B38E-93DCB00C89F2}
+        E 2122 90 40 7f
+        E 45 80 40 00
+        E 3009 90 40 7f
+        E 2742 90 41 7f
+        E 1649 90 43 7f
+        E 4258 80 41 00
+        E 869 90 47 7f
+        E 6977 80 40 00
+        E 4392 90 4a 7f
+        E 17342 80 4a 00
+        E 2118 90 3c 7f
+        E 16116 80 3c 00
+        E 4013 80 43 00
+        E 1226 90 40 7f
+        E 5595 90 3b 7f
+        E 9697 80 3b 00
+        E 891 90 4c 7f
+        E 9541 80 4c 00
+        E 2809 80 40 00
+        E 735 90 41 7f
+        E 4146 90 4a 7f
+        E 4904 80 4a 00
+        E 0 90 48 7f
+        E 5194 80 48 00
+        E 1070 80 47 00
+        E 401 80 41 00
+        E 625 90 43 7f
+        E 5684 80 43 00
+        E 958 90 3c 7f
+        E 1917 90 41 7f
+        E 3344 90 47 7f
+        E 3879 90 4c 7f
+        E 5149 80 3c 00
+        E 4949 90 3e 7f
+        E 267 80 47 00
+        E 22 90 47 7f
+        E 4147 80 47 00
+        E 89 90 47 7f
+        E 1404 80 47 00
+        E 6843 90 38 7f
+        E 2452 80 3e 00
+        E 67 80 38 00
+        E 23 80 4c 00
+        E 66 80 41 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {850DFDE5-7D52-4CFA-86C2-8F2D85FC3DBF}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 44
+        VELLANE -1 100 0 0 1
+      >
+      TAKE
+      NAME "03-Surge path test 2-MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS -0.00002267573696 -0.00004535147392
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30709250 R
+      GUID {A62BCB4F-7D13-45D0-87D7-2440D2E11150}
+      RECPASS 8
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {09CE763B-A767-4D94-BDF6-345B927815CC}
+        E 151194 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {27B85539-A329-4EB6-9621-F37DC29D57CC}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 45
+        VELLANE -1 100 0 0 1
+        CFGEDITVIEW 0.956463 0.005938 51 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 706 439 1539 989 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
     >
   >
   <TRACK {EDA3F18A-2589-4D44-AB5C-0268C39F5C35}
@@ -10877,6 +11083,109 @@
       FLOATPOS 0 0 0 0
       FXID {6997FB13-70E5-4CE8-B8BF-F2598B54E5D7}
       WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 78.74699915899625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BFFEC2B-EBFF-4A24-AD6A-1F674270B6DC}
+      IID 12
+      NAME "04-Surge path test 3-MIDI"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 23569029 R
+      GUID {56184959-3C99-4470-9B04-86A71AF8211A}
+      RECPASS 7
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {C99F0E4E-4BB3-47EB-AC88-FF162F30D58C}
+        E 2122 90 40 7f
+        E 45 80 40 00
+        E 3009 90 40 7f
+        E 2742 90 41 7f
+        E 1649 90 43 7f
+        E 4258 80 41 00
+        E 869 90 47 7f
+        E 6977 80 40 00
+        E 4392 90 4a 7f
+        E 17342 80 4a 00
+        E 2118 90 3c 7f
+        E 16116 80 3c 00
+        E 4013 80 43 00
+        E 1226 90 40 7f
+        E 5595 90 3b 7f
+        E 9697 80 3b 00
+        E 891 90 4c 7f
+        E 9541 80 4c 00
+        E 2809 80 40 00
+        E 735 90 41 7f
+        E 4146 90 4a 7f
+        E 4904 80 4a 00
+        E 0 90 48 7f
+        E 5194 80 48 00
+        E 1070 80 47 00
+        E 401 80 41 00
+        E 625 90 43 7f
+        E 5684 80 43 00
+        E 958 90 3c 7f
+        E 1917 90 41 7f
+        E 3344 90 47 7f
+        E 3879 90 4c 7f
+        E 5149 80 3c 00
+        E 4949 90 3e 7f
+        E 267 80 47 00
+        E 22 90 47 7f
+        E 4147 80 47 00
+        E 89 90 47 7f
+        E 1404 80 47 00
+        E 6843 90 38 7f
+        E 2452 80 3e 00
+        E 67 80 38 00
+        E 23 80 4c 00
+        E 66 80 41 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {F907B52F-E1B3-4535-AB90-E5B60DABA599}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 46
+        VELLANE -1 100 0 0 1
+        CFGEDITVIEW 0 0.005938 51 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 706 439 1539 989 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+      TAKE
+      NAME "04-Surge path test 3-MIDI"
+      TAKEVOLPAN 0 1 -1
+      SOFFS -0.00002267573696 -0.00004535147392
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      TAKECOLOR 30709250 R
+      GUID {155142EE-5C26-4F8F-A8CB-C2A5B50AAF83}
+      RECPASS 8
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {3BDA55D9-C2CF-4716-8EDD-642008132576}
+        E 151194 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {588EFC0B-4297-43AC-B7F4-5B07154E4622}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 47
+        VELLANE -1 100 0 0 1
+      >
     >
   >
 >
